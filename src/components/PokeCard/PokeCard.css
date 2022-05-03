@@ -1,0 +1,71 @@
+:root {
+	--dark-cyan: #19a2ae;
+	--very-dark-desaturated: #2d3248;
+	--dark-grayish-blue: #6a6f81;
+	--dark-gray: #969696;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.card {
+	background-color: white;
+	width: 285px;
+	border-radius: 16px;
+	overflow: hidden;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+	margin: 10px;
+}
+.card-header {
+	width: 100%;
+	display: block;
+	height: 80px;
+	background-image: url('../../assets/azul.jpg');
+}
+.card-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid rgba(153, 153, 153, 0.383);
+	padding-bottom: 10px;
+}
+.card-body-img {
+	border: 5px solid white;
+	border-radius: 50%;
+	margin-top: calc(-48px - 5px);
+	background-color: white;
+	width: 200px;
+}
+.card-body-title {
+	margin-top: 1rem;
+	font-size: 1.8rem;
+	font-weight: 600;
+	font-variant: small-caps;
+}
+.card-body-title span {
+	color: var(--dark-gray);
+	font-weight: 400;
+}
+.card-body-text {
+	color: var(--dark-gray);
+	font-size: 1.6rem;
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
+.card-footer {
+	display: flex;
+	justify-content: space-around;
+}
+.card-footer-social {
+	text-align: center;
+}
+.card-footer-social p {
+	letter-spacing: 1px;
+}
+
+.card-footer-social h3 {
+	margin: 0.5rem 0rem;
+}

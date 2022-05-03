@@ -1,0 +1,34 @@
+.profile {
+	margin: 1rem 0.5rem;
+}
+
+.profile-user {
+	text-align: center;
+}
+
+.profile-title {
+	font-size: 20px;
+	color: #5c5757;
+}
+
+.profile-view {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.image-profile {
+	display: flex;
+	flex-direction: column;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	font-variant: all-small-caps;
+	border-radius: 10px;
+	border: 1px solid #cdcdcd;
+	margin: 5px;
+	cursor: pointer;
+	height: 105px;
+	width: 105px;
+	justify-content: center;
+}

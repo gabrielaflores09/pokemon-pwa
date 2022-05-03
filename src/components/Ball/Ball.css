@@ -1,0 +1,18 @@
+.ball {
+	margin: 25vh auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+img {
+	width: 200px;
+}
+
+.title {
+	font-size: 25px;
+	font-weight: 500;
+	color: gray;
+	margin-top: 20px;
+}

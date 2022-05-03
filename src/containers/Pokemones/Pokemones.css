@@ -1,0 +1,25 @@
+.pokemones-container {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin: 20px;
+	flex-wrap: wrap;
+}
+
+.pokemon-title {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+		Verdana, sans-serif;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.pokemones-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	justify-content: space-around;
+}
+.pokemones {
+	margin: 2rem 0rem;
+}

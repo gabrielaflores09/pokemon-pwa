@@ -1,0 +1,49 @@
+.backpack {
+	margin: 2rem 0rem;
+}
+.backpack-title {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	margin: 1rem;
+}
+
+.backpack-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pokemon-card {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.backpack-pokemon {
+	margin: 0.5rem;
+	border: 1px solid #dbd9d9;
+	border-radius: 15px;
+	border-left: 13px solid #1976d2;
+	width: 30rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 200px;
+}
+span {
+	margin: 0px 10px;
+}
+.pokemon-card-header {
+	text-align: center;
+	margin: 0px auto;
+	padding: 1rem 0rem;
+}
+
+.backpack-pokemon-detail {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 2rem 2rem 1rem 2rem;
+}

@@ -1,0 +1,22 @@
+.login {
+	height: 100vh;
+	background-image: url('../../assets/back2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	align-items: center;
+	display: flex;
+}
+
+.login-form {
+	background-color: rgb(255, 255, 255);
+	padding: 25px 10px;
+	width: 20rem;
+	border-radius: 10px;
+	margin: 0px auto;
+}
+
+.login-logo {
+	width: 19rem;
+	margin: 15px 0px;
+}

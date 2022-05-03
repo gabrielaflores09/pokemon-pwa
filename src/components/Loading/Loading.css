@@ -1,0 +1,39 @@
+.page {
+	text-align: center;
+}
+.back {
+	position: absolute;
+	z-index: 1;
+	background-color: #0000008f;
+	height: 100vh;
+	width: 100%;
+	color: white;
+}
+
+.page-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 25vh;
+}
+
+span {
+	margin: 10px auto;
+}
+
+.icon-img {
+	animation: hand_tool 2s infinite ease-in-out;
+	width: 100px;
+}
+
+@keyframes hand_tool {
+	0%,
+	100% {
+		transform: scale(0.75);
+	}
+	50% {
+		transform: scale(1);
+	}
+}
